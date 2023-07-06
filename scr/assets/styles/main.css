@@ -13,6 +13,7 @@
 	padding: 25px;
 }
 
+/*header start*/
 .header {
 	color: white;
 }
@@ -27,7 +28,6 @@
 	display: flex;
 	justify-content: space-between;
 	flex-flow: wrap-reverse;
-	/* background-color: red; */
 }
 
 .list-items a {
@@ -38,7 +38,9 @@
 .last-nav-item {
 	order: -1;
 }
+/*header end*/
 
+/*body start*/
 .page-body {
 	background-color: rgb(208, 208, 208);
 	border-radius: 25px;
@@ -69,7 +71,9 @@
 .side-box {
 	flex-direction: column;
 }
+/*body end*/
 
+/*footer*/
 .footer-block {
 	background-color: rgb(50, 107, 228);
 }
