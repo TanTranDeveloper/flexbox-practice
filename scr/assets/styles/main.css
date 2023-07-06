@@ -1,0 +1,79 @@
+@font-face {
+	font-family: myFont;
+	src: url(../fonts/Caprasimo-Regular.ttf);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	font-family: myFont;
+	background-image: linear-gradient(green, orange);
+	padding: 25px;
+}
+
+.header {
+	color: white;
+}
+
+.page-header {
+	margin-left: 40px;
+	font-size: 70px;
+}
+
+.page-nav-list {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap-reverse;
+	/* background-color: red; */
+}
+
+.list-items a {
+	text-decoration: none;
+	display: flex;
+}
+
+.last-nav-item {
+	order: -1;
+}
+
+.page-body {
+	background-color: rgb(208, 208, 208);
+	border-radius: 25px;
+}
+
+.body-contents {
+	display: flex;
+	flex-flow: wrap;
+	flex-shrink: 1;
+	justify-content: space-around;
+}
+
+.contents-images {
+	width: 250px;
+	height: 200px;
+	border-radius: 20px;
+}
+
+.side {
+	border: 2px solid red;
+	display: flex;
+	flex-grow: 1;
+	flex-shrink: 1;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.side-box {
+	flex-direction: column;
+}
+
+.footer-block {
+	background-color: rgb(50, 107, 228);
+}
+
+.footer-email:link {
+	color: yellow;
+}
